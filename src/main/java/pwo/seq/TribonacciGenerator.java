@@ -6,9 +6,15 @@ package pwo.seq;
 import java.math.BigDecimal;
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 public class TribonacciGenerator extends FibonacciGenerator {
+/**
+ * Ciąg Tribonacciego
+ * @see <a href="https://pl.wikipedia.org/
+ki/Ci%C4%85g_Fibonacciego#Ci%C4%85g_%E2%80%9
+ribonacciego%E2%80%9D">Wikipedia</a>
+ */
   public TribonacciGenerator() {
     f_3 = new BigDecimal(0);
   }

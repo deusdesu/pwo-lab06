@@ -6,9 +6,14 @@ package pwo.seq;
 import java.math.BigDecimal;
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 public class LucasGenerator extends FibonacciGenerator {
+/**    
+* Ciąg Lucasa
+* @see <a href="https://en.wikipedia.org/wiki
+ucas_number">Wikipedia</a>
+ */
   public LucasGenerator() {
     current = new BigDecimal(2);
     f_2 = new BigDecimal(2);

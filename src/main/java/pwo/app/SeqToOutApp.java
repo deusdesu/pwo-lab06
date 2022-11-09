@@ -7,7 +7,7 @@ import pwo.utils.SequenceTools;
 
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 public class SeqToOutApp extends SeqToFileApp {
 

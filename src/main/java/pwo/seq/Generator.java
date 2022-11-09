@@ -8,15 +8,30 @@ import pwo.utils.SequenceGenerator;
 import java.math.BigDecimal;
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 abstract class Generator implements SequenceGenerator {
+    /**
+     * index ostatniego wyrazu ciągu
+     */
   protected int lastIndex = 0;
-  protected BigDecimal
-  current = null,
-    f_1 = null,
-    f_2 = null,
-    f_3 = null;
+ 
+    /**
+    * aktualna liczba w ciągu
+    */
+   protected BigDecimal current = null;
+     /**
+     * pierwszy wyraz ciągu
+     */
+     protected BigDecimal f_1 = null;
+    /**
+     * drugi wyraz ciągu
+    */
+     protected BigDecimal f_2 = null;
+    /**
+     * trzeci wyraz ciągu, wykorzystywany w TribonacciGenerator
+    */
+     protected BigDecimal f_3 = null;
   @Override
   public void reset() {
     lastIndex = 0;

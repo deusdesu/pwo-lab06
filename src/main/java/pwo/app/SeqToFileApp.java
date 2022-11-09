@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.nio.file.InvalidPathException;
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 class SeqToFileApp {
   protected SeqType seqType = null;

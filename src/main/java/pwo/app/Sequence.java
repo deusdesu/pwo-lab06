@@ -6,7 +6,7 @@ package pwo.app;
 
 /**
  *
- * @author student
+ * @author Maciej Rak
  */
 public class Sequence {
   public static void main(String[] args) {
